@@ -22,7 +22,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.orchard" version="0.2.0" name="Orchard" provider-name="Orchard (built on Estuary by phil65 and Ichabod Fletchman)">
+<addon id="skin.orchard" version="0.2.1" name="Orchard" provider-name="Orchard (built on Estuary by phil65 and Ichabod Fletchman)">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
