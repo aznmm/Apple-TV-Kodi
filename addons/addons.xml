@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.appletv" name="Apple TV Kodi Repository" version="1.0.0" provider-name="aznmm">
+<addon id="repository.appletv" name="Apple TV Kodi Repository" version="1.0.1" provider-name="aznmm">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
@@ -17,18 +17,28 @@
     <description lang="en_GB">A personal add-on repository for the Apple-TV-Kodi project.</description>
     <platform>all</platform>
     <license>MIT</license>
-    <assets/>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>
 <addon id="skin.orchard" version="0.2.0" name="Orchard" provider-name="Orchard (built on Estuary by phil65 and Ichabod Fletchman)">
-  <requires><import addon="xbmc.gui" version="5.17.0"/></requires>
-  <extension point="xbmc.gui.skin" debugging="false"><res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/></extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en_GB">A streaming-style skin inspired by the Apple TV app.</summary>
-    <description lang="en_GB">Orchard makes Kodi feel like the Apple TV app. Built on Kodi's Estuary skin.</description>
-    <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets>
-  </extension>
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">A streaming-style skin inspired by the Apple TV app.</summary>
+		<description lang="en_GB">Orchard makes Kodi feel like the Apple TV app: a sidebar for Home, Movies, TV Shows and Apps, a rotating featured banner, rows of poster art, product pages with seasons and cast, and Apple's tvOS type scale and spacing. Built on Kodi's Estuary skin, so every Kodi screen keeps working.</description>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>https://forum.kodi.tv/</forum>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 </addons>
