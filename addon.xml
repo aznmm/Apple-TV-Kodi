@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.orchard" version="0.2.0" name="Orchard" provider-name="Orchard (built on Estuary by phil65 and Ichabod Fletchman)">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">A streaming-style skin inspired by the Apple TV app.</summary>
+		<description lang="en_GB">Orchard makes Kodi feel like the Apple TV app: a sidebar for Home, Movies, TV Shows and Apps, a rotating featured banner, rows of poster art, product pages with seasons and cast, and Apple's tvOS type scale and spacing. Built on Kodi's Estuary skin, so every Kodi screen keeps working.</description>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>https://forum.kodi.tv/</forum>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
